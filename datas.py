@@ -5,4 +5,4 @@ class Data:
         self.ano = ano
 
     def formatada(self):
-        print("{}/{}/{}".format(self.dia,self.mes,self.ano))
+        print(f"{self.dia}/{self.mes}/{self.ano}")
